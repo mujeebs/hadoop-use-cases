@@ -1,0 +1,24 @@
+2012-12-06 15:19:12,403 TID:123456: Starting Thread MerchantDetailsDisplayRequest from 190.8.6.0 <MerchantId=MBTestMerch complete=yes readonly=true>
+2012-12-06 15:19:12,453 TID:123456: MBean for source DisplaySystem,sub=Stats registered.
+2012-12-06 15:19:12,454 TID:123456: Scheduled snapshot period at 10 second(s).
+2012-12-06 15:19:12,454 TID:123456: Registering new Query with QueryTracker system started for: Select * from MerchantDisplayView where MerchantId='MBTestMerch'
+2012-12-06 15:19:12,754 TID:123457: Starting Thread PaymentDisplayRequest from 180.18.16.0  <MerchantId=DDTestMerch PaymentId=89878711 complete=no>
+2012-12-06 15:19:12,757 TID:123457: PBean for source DisplaySystem,sub=Stats registered.
+2012-12-06 15:19:13,028 TID:123456: Registering new Query with QueryTracker system started for: Select * from PaymentView where MerchantId='DDTestMerch' and PaymentId = 89878711
+2012-12-06 15:19:13,031 TID:123456: Completed MerchantDisplayRequest for 190.8.6.0 
+2012-12-06 15:19:13,063 TID:123458: INFO com.bloggs.ipc.Server: Starting SocketReader
+2012-12-06 15:19:13,068 TID:123458: INFO com.bloggs.Server: IPC Server Responder: starting
+2012-12-06 15:19:13,069 TID:123458: INFO com.bloggs.Server: IPC Server handler 3 on 53927: starting
+2012-12-06 15:19:13,069 TID:123457: Completed PaymentDisplayRequest for 180.18.16.0
+2012-12-06 15:22:12,403 TID:223456: Starting Thread MerchantDetailsDisplayRequest from 190.8.6.0 <MerchantId=MBTestMerch complete=yes readonly=true>
+2012-12-06 15:22:12,453 TID:223456: MBean for source DisplaySystem,sub=Stats registered.
+2012-12-06 15:22:12,454 TID:223456: Scheduled snapshot period at 10 second(s).
+2012-12-06 15:22:12,454 TID:223456: Registering new Query with QueryTracker system started for: Select * from MerchantDisplayView where MerchantId='MBTestMerch'
+2012-12-06 15:22:12,754 TID:223457: Starting Thread PaymentDisplayRequest from 180.18.16.0  <MerchantId=DDTestMerch PaymentId=89878711 complete=no>
+2012-12-06 15:22:12,757 TID:223457: PBean for source DisplaySystem,sub=Stats registered.
+2012-12-06 15:22:13,028 TID:223456: Registering new Query with QueryTracker system started for: Select * from PaymentView where MerchantId='DDTestMerch' and PaymentId = 89878711
+2012-12-06 15:22:13,035 TID:223456: Completed MerchantDisplayRequest for 190.8.6.0 
+2012-12-06 15:22:13,063 TID:223458: INFO com.bloggs.ipc.Server: Starting SocketReader
+2012-12-06 15:22:13,068 TID:223458: INFO com.bloggs.Server: IPC Server Responder: starting
+2012-12-06 15:22:13,069 TID:223458: INFO com.bloggs.Server: IPC Server handler 3 on 53927: starting
+2012-12-06 15:22:13,069 TID:223457: Completed PaymentDisplayRequest for 180.18.16.0
